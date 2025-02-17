@@ -7,5 +7,9 @@ import scrapy
 
 class ForumItem(scrapy.Item):
     content = scrapy.Field()
+    topic = scrapy.Field()
     author = scrapy.Field()
+    index = scrapy.Field()
+    time = scrapy.Field()
+    url = scrapy.Field()
 
